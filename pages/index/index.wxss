@@ -1,0 +1,59 @@
+page {
+  color: #666;
+  padding: 10rpx;
+}
+
+.nav {
+  white-space: nowrap;
+  padding: 5rpx 0;
+}
+
+.nav_item {
+  display: inline-block;
+  font-size: 30rpx;
+  padding: 20rpx 45rpx;
+}
+
+.nav_item.active {
+  border-bottom: 1px solid #de688b;
+}
+
+.slide swiper {
+  height: 220rpx;
+  margin-top: 10rpx;
+}
+
+.slide navigator {
+  width: 100%;
+  height: 100%;
+}
+
+.slide image {
+  width: 100%;
+  height: 100%;
+}
+
+.vedioWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.vedioList {
+  width: 49%;
+  margin-top: 10rpx;
+}
+
+.vedioList image {
+  border-radius: 10rpx;
+  width: 100%;
+}
+.text{
+  display: -webkit-box;
+   -webkit-line-clamp: 2;
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+   -webkit-box-orient: vertical
+}

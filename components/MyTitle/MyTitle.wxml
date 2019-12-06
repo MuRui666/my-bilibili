@@ -1,0 +1,14 @@
+<view class="my_title">
+  <navigator class="logo">
+    <image class="log_img" src="../../icon/logo2.png"></image>
+  </navigator>
+  <view class="search_icon">
+    <image src="../../icon/search.png"></image>
+  </view>
+  <view class="user_icon">
+    <image src="../../icon/user.png"></image>
+  </view>
+    <view class="dwnn_app">
+      下载 App
+  </view>
+</view>

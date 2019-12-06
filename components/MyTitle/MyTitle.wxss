@@ -1,0 +1,44 @@
+.my_title{
+  display: flex;
+  align-items: center;
+}
+.logo{
+    flex:7;
+    margin-left:10rpx;
+  }
+  .logo image{
+    width: 140rpx;
+    height:60rpx;
+  }
+.search_icon{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_icon image{
+   width: 44rpx;
+    height:44rpx;
+}
+.user_icon{
+  flex:2;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user_icon image{
+  width:54rpx;
+  height:60rpx;
+}
+.dwnn_app{
+  flex:3;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  color: #fff;
+  border-radius: 10rpx;
+  padding:10rpx;
+  margin-right: 10rpx;
+}
